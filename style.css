@@ -29,3 +29,29 @@ img {
 ul,ol {
     padding-left: 100px;
 }
+
+.liste, table {
+    border-collapse: collapse;
+    width: 400px;
+    margin: 50px;
+}
+
+.liste, tr,td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.liste, tr {
+    background-color: #F2F2F2;
+}
+
+.liste, tr:hover  {
+    background-color: #DDDDDD;
+}
+
+.liste, th {
+    padding: 12px 8px 20px 8px;
+    text-align: left;
+    background-color: #FF715B;
+    color: white;
+}
