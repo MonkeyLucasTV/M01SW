@@ -55,3 +55,36 @@ ul,ol {
     background-color: #FF715B;
     color: white;
 }
+
+#message form {
+    width: 400px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#message label,select,input {
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #4C5454;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#message select,input {
+    background-color: #FF715B;
+    border: 1px solid #4C5454;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#message input [type=submit],label {
+    margin-top: 30px;
+}
