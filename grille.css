@@ -1,27 +1,22 @@
 header {
     grid-area: entete;
-    border: 1px solid black;
 }
 
 nav {
     grid-area: navigation;
-    border: 1px solid black;
 }
 
 
 section {
     grid-area: principale;
-    border: 1px solid black;
 }
 
 aside {
     grid-area: liens;
-    border: 1px solid black;
 }
 
 footer { 
     grid-area: pied;
-    border: 1px solid black;
 }
 
 body {

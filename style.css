@@ -7,6 +7,7 @@ body {
 
 }
 
+
 h1{
     font-size: 22px;
     padding-left: 20px;
@@ -74,6 +75,8 @@ ul,ol {
     font-size: 16px;
     border-radius: 5px;
     padding-top: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
     padding-bottom: 5px;
 }
 
@@ -102,26 +105,28 @@ header h1 {
     font-variant-caps: small-caps;
 }
 
-nav {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
 nav p {
     margin:unset;
-    padding: 10px 10px 10px 10px;
+    padding-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    box-shadow: none;
 }
 
 nav span {
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 20px;
     font-size: 20px;
     text-align: center;
     font-variant-caps: small-caps;
     cursor: pointer;
 }
 
-span,nav:hover {
+span:hover,nav:hover {
     border-bottom: 2px white solid;
     transition-duration: 0.3s;
 }
@@ -131,12 +136,29 @@ section {
 
 }
 
+section a {
+    text-decoration: none;
+    box-shadow: none;
+    color: #4C5454;
+}
+
 aside {
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
+    border-radius: 15px;
     font-size: 14px;
     color: black;
-    background: linear-gradient(#FF715B,white,#FF715B);    
+    background: linear-gradient(#FF715B,#ffbdb3,#FF715B);    
+}
+
+
+
+aside p {
+    padding: 0;
+}
+
+aside ul,ol {
+    padding-left: 40px;
 }
 
 footer {
@@ -151,3 +173,13 @@ footer:link {
     color: white;
 }
 
+footer a {
+    
+    color: white;
+    box-shadow: none;
+}
+
+#hamburger {
+    width: 80px;
+    float: right;
+}
