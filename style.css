@@ -88,3 +88,66 @@ ul,ol {
 #message input [type=submit],label {
     margin-top: 30px;
 }
+
+header,nav,footer {
+    background-color: #FF715B;
+    color: white;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    font-variant-caps: small-caps;
+}
+
+nav {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav p {
+    margin:unset;
+    padding: 10px 10px 10px 10px;
+}
+
+nav span {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-variant-caps: small-caps;
+    cursor: pointer;
+}
+
+span,nav:hover {
+    border-bottom: 2px white solid;
+    transition-duration: 0.3s;
+}
+
+section {
+    padding: 10px 10px 10px 10px;
+
+}
+
+aside {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    font-size: 14px;
+    color: black;
+    background: linear-gradient(#FF715B,white,#FF715B);    
+}
+
+footer {
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 22px;
+}
+
+footer:link {
+    color: white;
+}
+
