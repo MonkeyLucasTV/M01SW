@@ -179,19 +179,26 @@ footer a {
     aside{
         display: none;
     }
-    img{
+    #liste table {
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    #journal{
         display: block;
         width: 80%;
         margin: 5px auto 5px auto;
         float: none;
     }
-
-    #liste table {
-        width: 100%;
+    section{
         margin: 0px 0px 0px 0px;
+        padding: 10px 5px 10px 5px;
     }
-    #hamburger {
-        float: bottom-right;
+    #presentation h1,h2,p {
+        padding-left: 0px;
+    }
+    #presentation ul,ol {
+        padding-left: 25px;
     }
 }
 
