@@ -12,19 +12,78 @@
             <label for="classe-select">Sélectionner un afficheur : </label>
                 <select id="classe-select" name="classe">
                     <option value="CPA">CP A</option>
-                    <option value="CPB">CP B</option>
-                    <option value="CE1A">CE1 A</option>
-                    <option value="CE1B">CE1 B</option>
-                    <option value="CE2A">CE2 A</option>
-                    <option value="CE2B">CE2 B</option>
-                    <option value="CM1A">CM1 A</option>
-                    <option value="CM1B">CM1 B</option>
-                    <option value="CM2A">CM2 A</option>
+                        <option value="CPB">CP B</option>
+                            <option value="CE1A">CE1 A</option>
+                            <option value="CE1B">CE1 B</option>
+                                <option value="CE2A">CE2 A</option>
+                                <option value="CE2B">CE2 B</option>
+                            <option value="CM1A">CM1 A</option>
+                            <option value="CM1B">CM1 B</option>
+                        <option value="CM2A">CM2 A</option>
                     <option value="CM2B">CM2 B</option>
                 </select>
 
+                <label for="select-effetapparition">Selectionner l'effet d'apparition</label>
+                    <select name="effetapparition" name="select-effetapparition">
+                            <option value="FA">Immediat</option>
+                            <option value="FB">Xopen</option>
+                            <option value="FC">Curtain Up</option>
+                            <option value="FD">Curtain Down</option>
+                            <option value="FE">Scroll gauche</option>
+                            <option value="FF">Scroll droit</option>
+                            <option value="FG">Vopen</option>
+                            <option value="FI">Scroll Up</option>
+                            <option value="FJ">Scroll J</option>
+                            <option value="FK">Hold</option>
+                            <option value="FL">Snow</option>
+                            <option value="FM">Twinkle</option>
+                            <option value="FN">Block Move</option>
+                            <option value="FP">Random</option>
+                    </select>
+                 
+                <label for="select-effetaffichage">Selectionner l'effet d'affichage</label>
+                    <select name="effetaffichage" id="select-effetaffichage">
+                            <option value="MA">Rapide Normal</option>
+                            <option value="MB">Rapide Clignotant</option>
+                            <option value="MQ">Moyennement Rapide normal</option>
+                            <option value="MR">Moyennement Rapide clignotant</option>
+                            <option value="Ma">Moyennement lent normal</option>
+                            <option value="Mb">Moyennement lent clignotant</option>
+                            <option value="Mq">Lent normal</option>
+                            <option value="Mr">Lent clignotant</option>
+                    </select>
+            
+                <label for="effect-select">Selectionner la durée de l'affichage</label>
+                    <select name="dureeaffichage" id="select-dureeaffichage">
+                        <option value="WA">0.5 sec</option>
+                        <option value="WB">1 sec</option>
+                        <option value="WC">2 sec</option>
+                        <option value="WD">3 sec</option>
+                        <option value="WZ">25 sec</option>
+                    </select>
+                    
+                <label for="effect-select">Selectionner l'effet de disparition</label>
+                    <select name="effetdisparition" id="select-effetdisparition">
+                        <option value="FA">Immediat</option>
+                        <option value="FB">Xopen</option>
+                        <option value="FC">Curtain Up</option>
+                        <option value="FD">Curtain Down</option>
+                        <option value="FE">Scroll gauche</option>
+                        <option value="FF">Scroll droit</option>
+                        <option value="FG">Vopen</option>
+                        <option value="FI">Scroll Up</option>
+                        <option value="FJ">Scroll J</option>
+                        <option value="FK">Hold</option>
+                        <option value="FL">Snow</option>
+                        <option value="FM">Twinkle</option>
+                        <option value="FN">Block Move</option>
+                        <option value="FP">Random</option>
+                    </select>
+
+
+
             <label for="pseudo-select">Indiquer le message : </label>
-        
+            
             <input type="text" id="message" name="message">
             <input type="submit" id="Envoyer">
 
